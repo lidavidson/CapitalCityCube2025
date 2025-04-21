@@ -1,0 +1,73 @@
+<html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Capitol Cube Championship</title>
+    <style>
+        body {
+            --easygoing-gray: #595959;
+            --capitol-blue: #0056b3;
+            --capitol-red: #e71837;
+            font-family: futura;
+            line-height: 1.6;
+            margin: 20px;
+            color: var(--easygoing-gray);
+            font-size: 1.33em;
+        }
+        h1, h2, h3 {
+            color: var(--capitol-blue);
+        }
+        h1 {
+            text-align: center;
+            border-bottom: 2px var(--capitol-blue);
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+        .container {
+            display: flex;
+            flex-direction: column;
+            min-height: 100%;
+            max-width: 600px;
+            margin: auto;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+        .footer {
+            text-align: center;
+            margin-top: auto;
+            font-size: 0.66em;
+            opacity: 0.45;
+        }
+        .accent-red {
+            color: var(--capitol-red);
+        }
+        .accent-blue {
+            color: var(--capitol-blue);
+        }
+        .disclaimer {
+            margin-top: 0em;
+        }
+        .lede {
+            margin-top: 2em;
+        }
+    </style>
+</head>
+<body>
+    <div class="container" style="">
+        <div class="header" style="text-align: center;">
+            <div style="width: 100%; max-width: 300px; margin: auto; overflow: hidden;">
+                <!-- This weird little hack is to crop a few pixels off of the top, so we don't get a weird gray bar -->
+                <img src="capital_city_cube.png" alt="Capitol Cube Championship" style="width: 100%; display: block; margin: auto; position: relative; top: -2px;">
+            </div>
+        </div>
+        <div class="lede">
+            <p style="text-align: center; margin-bottom: 30px;">The Premier <span class="accent-red">Magic: The Gathering</span> Cube Event in <span class="accent-blue">Washington DC</span></p>
+        </div>
+        <div class="disclaimer">
+            <p style="text-align: center;">More details to follow...</p>
+        </div>
+        <div class="footer">
+            <p>Organized by Capitol Cube LLC, an organization currently awaiting an IRS decision on whether we can be a 501(c)(3) nonprofit. :)</p>
+        </div>
+    </div>
+    </body>
+</html>
